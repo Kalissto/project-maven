@@ -47,9 +47,7 @@
     <build>
         <resources>
             <resource>
-                <targetPath>${path.for.lib}</targetPath>
-                <directory>${project.build.directory.lib}</directory>
-                <filtering>false</filtering>
+                <directory>src/main/resources</directory>
             </resource>
         </resources>
         <plugins>
@@ -68,7 +66,7 @@
                             <artifactId>desktop-game-engine</artifactId>
                             <version>1.0</version>
                             <packaging>jar</packaging>
-                            <file>C:\Users\Vika\IdeaProjects\project-maven-master\project-maven\lib/desktop-game-engine.jar</file>
+                            <file>lib/desktop-game-engine.jar</file>
                         </configuration>
                     </execution>
                 </executions>
